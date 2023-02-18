@@ -11,7 +11,7 @@ namespace Reflection
         {
             
              // Get type information
-             Employee aniket = new Employee(1, "Aniket", "Kadam");
+            Employee aniket = new Employee(1, "Aniket", "Kadam");
             Console.WriteLine(aniket.GetFullName());
 
             Type t = aniket.GetType();

@@ -5,7 +5,6 @@ using System.Text;
 
 namespace Reflection.Models
 {
-
     interface IEmployee
     {
         public void Work();
